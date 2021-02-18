@@ -1,14 +1,22 @@
-body {
-    background-color: rgba(131, 163, 224, 0.658);
+:root{
+    --topTabColor: rgba(22, 20, 20, 0.87); 
+    --blueBoxColor: rgb(78, 191, 243);
 }
 
-#blueBox{
-    background-color: rgb(34, 215, 221);
-    color: blue;
+header{
+    background-color: var(--topTabColor);
+}
+
+body {
+    background-color:  rgba(167, 198, 255, 0.788);
+}
+
+#blueBox{ 
+    background-color: var(--blueBoxColor);
+    color: var(--topTabColor);
     width: 400px;
     height: 60px;
 }
 
-header{
-    background-color: grey;
-}
+
+
