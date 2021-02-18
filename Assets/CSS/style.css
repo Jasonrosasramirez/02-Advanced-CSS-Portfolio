@@ -1,14 +1,20 @@
 :root{
     --topTabColor: rgba(22, 20, 20, 0.87); 
     --blueBoxColor: rgb(78, 191, 243);
+    --linkSize: 30px; /* I'll eventually make a variable to combine link font color and size. Once I have a set established. */
 }
 
 header{
     background-color: var(--topTabColor);
 }
 
+header nav li{
+    font-size: var(--linkSize);
+    color: orange;
+}
+
 body {
-    background-color:  rgba(167, 198, 255, 0.788);
+    background-color:  rgba(167, 198, 255, 0.596);
 }
 
 #blueBox{ 
@@ -18,5 +24,7 @@ body {
     height: 60px;
 }
 
-
-
+footer a {
+    color: var(--topTabColor);
+    font-size: var(--linkSize);
+}
