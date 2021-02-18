@@ -8,3 +8,7 @@ body {
     width: 400px;
     height: 60px;
 }
+
+header{
+    background-color: grey;
+}
