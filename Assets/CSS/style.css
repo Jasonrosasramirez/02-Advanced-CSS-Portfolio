@@ -10,7 +10,7 @@ header{
 
 header nav li{
     font-size: var(--linkSize);
-    color: orange;
+    /* I for some reason cannot get the color to change*/
 }
 
 body {
@@ -28,3 +28,4 @@ footer a {
     color: var(--topTabColor);
     font-size: var(--linkSize);
 }
+
