@@ -6,11 +6,25 @@
 
 header{
     background-color: var(--topTabColor);
+    
 }
 
-header nav li{
+header nav {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+header nav ul li a{
+    color: orange;
     font-size: var(--linkSize);
-    /* I for some reason cannot get the color to change*/
+
 }
 
 body {
