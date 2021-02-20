@@ -15,3 +15,7 @@ h1 {
 h2 {
     font-size: 40px;
 }
+
+body {
+    background-color:  rgba(167, 198, 255, 0.596);
+}

@@ -1,24 +1,44 @@
 :root{
-    --topTabColor: rgba(22, 20, 20, 0.87); 
+    --blackTabColor: rgba(22, 20, 20, 0.87); 
     --blueBoxColor: rgb(78, 191, 243);
     --linkSize: 30px; /* I'll eventually make a variable to combine link font color and size. Once I have a set established. */
 }
 
+.Category{
+    border-style: dashed;
+    border-color: red;
+}
+
+
 header{
-    background-color: var(--topTabColor);
-    
+    background-color: var(--blackTabColor);
+    padding: 20px;
+}
+
+header h1{
+    color: var(--blackTabColor);
+    background-color: var(--blueBoxColor);
 }
 
 header nav {
     float: right;
     margin-right: 20px;
     font-size: 20px;
+    margin-left: 15px;    
+    border-style: dotted;
+    border-color: green;
 }
-
 
 header nav ul li{
     list-style-type: none;
     display: inline-block;
+    padding: 5px 8px 5px 8px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 6px;
+
+    margin: 5px;
 }
 
 header nav ul li a{
@@ -27,20 +47,21 @@ header nav ul li a{
 
 }
 
-body {
-    background-color:  rgba(167, 198, 255, 0.596);
-}
 
-#blueBox{ 
-    background-color: var(--blueBoxColor);
-    color: var(--topTabColor);
-    width: 400px;
-    height: 60px;
+footer ul{
+    float: right;
+    border-style: dotted;
+    border-color: green;
+}
+footer ul li{
+    
+    display: inline-block;
+    padding: 5px 8px 5px 8px;
 }
 
 footer a {
     color: var(--topTabColor);
-    font-size: var(--linkSize);
+    font-size: var(--linkSize);    
 }
 
 footer p {
