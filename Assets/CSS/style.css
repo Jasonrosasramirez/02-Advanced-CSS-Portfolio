@@ -29,3 +29,6 @@ footer a {
     font-size: var(--linkSize);
 }
 
+footer p {
+    font-size: 14px;
+}
