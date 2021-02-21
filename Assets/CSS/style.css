@@ -52,6 +52,13 @@ header nav ul li a{
 
 /* Body modifications */ 
 
+#banner {
+    border-style: dashed;
+    border-color: goldenrod;
+    margin-bottom: 15px;
+    height: 200px; 
+}
+
 .container {
     border-style: dashed;
     border-color: blue;
