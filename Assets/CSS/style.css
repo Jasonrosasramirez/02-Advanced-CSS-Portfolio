@@ -4,30 +4,34 @@
     --linkSize: 30px; /* I'll eventually make a variable to combine link font color and size. Once I have a set established. */
 }
 
-.Category{
-    border-style: dashed;
-    border-color: red;
-}
 
+/* header section */
 
 header{
     background-color: var(--blackTabColor);
     padding: 20px;
+    display: flex;
+    justify-content: space-between;    
 }
 
 header h1{
     color: var(--blackTabColor);
+    opacity: 0.8;
     background-color: var(--blueBoxColor);
+    border-radius: 20px;
 }
 
 header nav {
-    float: right;
+    display:flex;
+    
     margin-right: 20px;
     font-size: 20px;
     margin-left: 15px;    
     border-style: dotted;
     border-color: green;
 }
+
+
 
 header nav ul li{
     list-style-type: none;
@@ -44,19 +48,54 @@ header nav ul li{
 header nav ul li a{
     color: orange;
     font-size: var(--linkSize);
-
 }
 
+/* Body modifications */ 
+
+.container {
+    border-style: dashed;
+    border-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px
+}
+
+.Category{
+    border-style: dashed;
+    border-color: red;
+    border-radius: 20px;
+    width: 600px;
+}
+
+#aboutMe {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-style: dashed;
+    border-color: red;
+    height: 200px;
+}
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    border-style: dashed;
+    border-color: red;
+}
 
 footer ul{
-    float: right;
+    display: flex;
     border-style: dotted;
     border-color: green;
 }
+
 footer ul li{
     
     display: inline-block;
-    padding: 5px 8px 5px 8px;
+    padding: 8px;
 }
 
 footer a {
