@@ -1,6 +1,7 @@
 :root{
     --blackTabColor: rgba(22, 20, 20, 0.87); 
     --blueBoxColor: rgb(78, 191, 243);
+    --blueSubHeading: rgba(49, 49, 170, 0.774);
     --whiteFooterText: rgb(221, 211, 211);
     --linkSize: 30px;
 
@@ -20,7 +21,6 @@ header h1{
     color: var(--blackTabColor);
     opacity: 0.8;
     background-color: var(--blueBoxColor);
-    border-radius: 20px;
 }
 
 header nav {
@@ -59,6 +59,12 @@ header nav ul li a{
     border-color: goldenrod;
     margin-bottom: 15px;
     height: 200px; 
+    width: 100%;
+}
+
+#banner h2 {
+    background-color: var(--blueBoxColor);
+    width: 300px;
 }
 
 /* About me & Work Sections */
@@ -66,15 +72,27 @@ header nav ul li a{
 .subHeading {   
     margin: 10px;
     border-style: dashed;
-    border-color: blue;
+    border-color: orange;
     border-radius: 20px;
     display:flex;
 }
 
 .subHeadingTitle {
+    border-right: 5px solid;
+    border-color: var(--blueSubHeading);
+    width: 300px;
+    color: var(--blueSubHeading);
+    margin-right: 30px;
+}
+
+
+
+.aboutMeContainer {
     border-style: dashed;
     border-color: red;
-    width: 200px;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
 }
 
 /* Work Section */
@@ -82,19 +100,23 @@ header nav ul li a{
 .projectCardContainer {
     border-style: dashed;
     border-color: red;
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 }
 
 .projectCard {
-    border-style: dashed;
-    border-color: green;
+    border-style: solid;
+    border-color: var(--blueBoxColor);
     margin: 5px;
+    height: 80px;
 }
 
-.projectCard h3 {
+.projectTitle {
     background-color: var(--blueBoxColor);
 }
+
 
 .subHeadingTitle p {
     word-wrap: normal;
@@ -102,8 +124,6 @@ header nav ul li a{
 }
 
 /* resume Section  */
-
-
 
 .resumeTitle {
     border-style: dashed;
@@ -115,12 +135,14 @@ header nav ul li a{
     border-style: dashed;
     border-color: red;
     border-radius: 20px;
+    width: 100%;
 }
 
-.Category{
+.resumeCard{
     border-style: dashed;
-    border-color: red;
+    border-color: green;
     border-radius: 20px;
+    width: 100%;
     
 }
 
