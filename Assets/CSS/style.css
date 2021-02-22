@@ -1,7 +1,9 @@
 :root{
     --blackTabColor: rgba(22, 20, 20, 0.87); 
     --blueBoxColor: rgb(78, 191, 243);
-    --linkSize: 30px; /* I'll eventually make a variable to combine link font color and size. Once I have a set established. */
+    --whiteFooterText: rgb(221, 211, 211);
+    --linkSize: 30px;
+
 }
 
 
@@ -46,7 +48,7 @@ header nav ul li{
 }
 
 header nav ul li a{
-    color: orange;
+    color: var(--blueBoxColor);
     font-size: var(--linkSize);
 }
 
@@ -99,15 +101,20 @@ header nav ul li a{
     color:salmon;
 }
 
-/* Pillars Section  */
+/* resume Section  */
 
-.container {
+
+
+.resumeTitle {
     border-style: dashed;
-    border-color: blue;
-    display: flex;
-    justify-content: space-evenly;
-    height: 400px
-    
+    border-color: red;
+    border-radius: 20px;
+}
+
+.resumeContainer {
+    border-style: dashed;
+    border-color: red;
+    border-radius: 20px;
 }
 
 .Category{
@@ -122,11 +129,20 @@ header nav ul li a{
 /* footer section */
 
 footer{
-    display: flex;
-    justify-content: center;
-    height: 200px;
+    height: 140px;
     border-style: dashed;
     border-color: red;
+    background-color: var(--blackTabColor);
+}
+
+footer h2 {
+    text-align: center;
+    color: var(--whiteFooterText);
+}
+
+.footerLinks {
+    justify-content: center;
+    display: flex;
 }
 
 footer ul{
@@ -142,7 +158,8 @@ footer ul li{
 
 footer a {
     color: var(--topTabColor);
-    font-size: var(--linkSize);    
+    font-size: var(--linkSize);
+    color: var(--whiteFooterText);    
 }
 
 footer p {
