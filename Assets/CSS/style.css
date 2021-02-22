@@ -50,7 +50,7 @@ header nav ul li a{
     font-size: var(--linkSize);
 }
 
-/* Body modifications */ 
+/* Banner Section */ 
 
 #banner {
     border-style: dashed;
@@ -59,13 +59,47 @@ header nav ul li a{
     height: 200px; 
 }
 
+/* About me & Work Sections */
+
 .subHeading {   
     margin: 10px;
     border-style: dashed;
-    border-color: red;
+    border-color: blue;
     border-radius: 20px;
-    
+    display:flex;
 }
+
+.subHeadingTitle {
+    border-style: dashed;
+    border-color: red;
+    width: 200px;
+}
+
+/* Work Section */
+
+.projectCardContainer {
+    border-style: dashed;
+    border-color: red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectCard {
+    border-style: dashed;
+    border-color: green;
+    margin: 5px;
+}
+
+.projectCard h3 {
+    background-color: var(--blueBoxColor);
+}
+
+.subHeadingTitle p {
+    word-wrap: normal;
+    color:salmon;
+}
+
+/* Pillars Section  */
 
 .container {
     border-style: dashed;
@@ -102,7 +136,6 @@ footer ul{
 }
 
 footer ul li{
-    
     display: inline-block;
     padding: 8px;
 }
