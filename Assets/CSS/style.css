@@ -56,7 +56,7 @@ header nav ul li a{
 #banner {
     background-size: cover;
     background-position: center;
-    background-image: url("../bannerImage.jpg"); /* Link not working. Fix later */
+    background-image: url("../bannerImage.jpg"); 
     height: 200px; 
     width: 100%;
     border-style: dashed;
