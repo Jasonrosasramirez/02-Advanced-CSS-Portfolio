@@ -2,11 +2,10 @@
     --blackTabColor: rgba(22, 20, 20, 0.87); 
     --blueBoxColor: rgb(78, 191, 243);
     --blueSubHeading: rgba(49, 49, 170, 0.774);
-    --whiteFooterText: rgb(221, 211, 211);
+    --whiteFooterText: rgb(250, 243, 243);
     --linkSize: 30px;
 
 }
-
 
 /* header section */
 
@@ -55,12 +54,18 @@ header nav ul li a{
 /* Banner Section */ 
 
 #banner {
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Assets/bannerImage.JPG);
+    height: 200px; 
+    width: 100%;
     border-style: dashed;
     border-color: goldenrod;
     margin-bottom: 15px;
-    height: 200px; 
-    width: 100%;
+    
 }
+
+
 
 #banner h2 {
     background-color: var(--blueBoxColor);
@@ -143,6 +148,7 @@ header nav ul li a{
     border-color: green;
     border-radius: 20px;
     width: 100%;
+    background-color: white;
     
 }
 
