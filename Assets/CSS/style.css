@@ -119,6 +119,7 @@ header nav ul li a{
 
 .projectCard {
     border-style: solid;
+    border: 5px;
     border-color: var(--blueBoxColor);
     margin: 5px;
     height: auto;

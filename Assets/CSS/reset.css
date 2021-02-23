@@ -19,3 +19,6 @@ h2 {
 body {
     background-color:  rgba(167, 198, 255, 0.596);
 }
+p {
+    font-family:  "DejaVu Sans Mono", "monospace", "comic sans"
+}
