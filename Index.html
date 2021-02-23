@@ -26,32 +26,43 @@
                 
         </nav>
 
-    </header>
+    </header> <!-- Contains the Navigation Bar -->
 
 
-    <div id = "banner" title="Banner goes here">
-        <h2> Goes here </h2>
+    <div id = "banner" title="Page Banner">
+        <p id = "quote"> "There are very few people that feel a furstration, and really spend the needed time to undertsand it. It's a special thing only the best of engineers can do." </p>
 
-    </div>
+    </div> <!-- Contains the page banner and quote -->
 
 
 
     <div id="aboutMe" class = "subHeading"> 
         <div class = "subHeadingTitle">
             <h2> About Me </h2>
-            <img src="./Assets/pictureJasonCropped.png" alt="Picture of Jason" id="heyJason">
-            <p> subtitle </p>
-
-        </div>
+            <img src="./Assets/pictureJasonCropped.png" alt="Picture of Jason" id="heyJason"> <!-- alt added in case browser could not load image -->
+            
+        </div> 
 
         <div class = "aboutMeContainer">
-            <p> Hello there! I am an eager to assemble my portfolio 
-            
+            <p> Hello there! I'm currently a student at the U of M coding boot camp. My long term goal is to someday work with both hardware and software. 
             </p>
+
+            <br>
+
+            <div id = "hobbies"> 
+                <h3> Hobbies <h3>
+                <p> My hobbies include: Biking, volleyball, soccer, hiking, video games, photography, painting. </p>
+
+            </div>
 
         </div>
 
-        
+        <!-- The method above is repeated through the sections. 
+                a title container is used followed with the 
+                class which contains the container. 
+
+                This made it easier to section off and organize the page
+        -->
 
     </div>
 
@@ -59,16 +70,18 @@
     <div id="work" class ="subHeading" > 
         <div class = "subHeadingTitle">
             <h2> Work </h2>
-        
-            <p> subtitle </p>
 
         </div>
-        
+             
+
         <div class = "projectCardContainer">
+            
             <div id = "Surf Report" class = "projectCard">
                 <div class = "projectTitle">
                     <h3> Surf Report </h3>
                     <p> MERN Stack</p>
+                    <img src="https://www.surfertoday.com/images/surf-report.jpg" alt="surf picture" class = "projectCardImage">
+
                 </div>
             </div>
     
@@ -76,6 +89,8 @@
                 <div class = "projectTitle">
                     <h3> LED Wall </h3>
                     <p> Node/ IoT </p>
+                    <img src="https://motionarray.imgix.net/preview-2691OiCa8SKpJ0_0011.jpg" alt="LED Wall picture" class = "projectCardImage">
+
                 </div>
             </div>
     
@@ -83,20 +98,20 @@
                 <div class = "projectTitle">
                     <h3> Calculator </h3>
                     <p>React/JavaScript/CSS</p>
+                    <img src="https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2015/02/thumb_720_450_1411_f.jpg" alt="Calculator Image" class = "projectCardImage">
+
                     
                 </div>
                 
-                
-    
             </div>
     
             <div id = "pastelPuzzle" class = "projectCard">
                 <div class = "projectTitle">
                     <h3> Pastel Puzzle </h3>
                     <p>Mern Stack</p>        
-                </div>
-                
-                
+                    <img src="https://i.pinimg.com/originals/63/9e/2f/639e2f3d8d21094a377c30d5362f6f6b.jpg" alt="pastelPuzzle image" class = "projectCardImage">
+
+                </div>           
     
             </div>
     
@@ -104,10 +119,13 @@
                 <div class = "projectTitle">
                     <h3> Run Buddy </h3>
                     <p>HTML/CSS</p>        
-                    
+                    <img src="https://www.runtastic.com/blog/wp-content/uploads/2016/05/thumbnail_1200x800-1024x683.jpg" alt="running image" class = "projectCardImage">
+
                 </div>
 
             </div>
+
+            <h3> images above are borrowed from external sources as place holders. I do not claim ownership </h3>
     
         </div>
 
@@ -117,8 +135,6 @@
     <div id="resume" class="subHeading">
         <div class = "subHeadingTitle">
             <h2> Resume </h2>
-            <br>
-            <p> Click here to view full resume </p>
 
         </div>
 
@@ -169,19 +185,18 @@
     
     <footer id ="contactMe"> 
         <h2> Contact Me <h2>
-        <p> The best ways to reach me is Linkedin :) </p>
+        <p> Linkedin is the preferred method </p>
         
         <div class = footerLinks>
             <ul> <!-- Link to the sections below-->
                 <li> <a href="https://www.linkedin.com/in/jason-rosas-ramirez/" target="_blank"> Linkedin </a> </li>
                 <li> <a href="https://github.com/Jasonrosasramirez" target="_blank"> GitHub </a> </li>
-                <li> <a href=""> Twitter </a> </li>
-                <li> <a href=""> Spotify </a> </li>
+                <!-- Should I find additional links later-->
+                <!-- <li> <a href=""> Twitter </a> </li> -->
+                <!-- <li> <a href=""> Spotify </a> </li> -->
             <ul>
         </div>
         
-
-         
     </footer>
 
 </body>

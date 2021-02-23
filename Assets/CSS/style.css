@@ -1,3 +1,7 @@
+* { 
+    box-sizing: border-box;
+}
+
 :root{
     --blackTabColor: rgba(22, 20, 20, 0.87); 
     --blueBoxColor: rgb(78, 191, 243);
@@ -64,11 +68,15 @@ header nav ul li a{
     
 }
 
-
-
-#banner h2 {
-    background-color: var(--blueBoxColor);
-    width: 300px;
+#quote {
+    background-color: rgb(61, 58, 58);
+    opacity: 0.8;
+    padding: 5px;
+    Color: white;
+    width: auto;
+    height: auto;
+    font-size: 36px;
+    font-family: "Comic Sans MS","Comic Sans","Cursive";
 }
 
 /* About me & Work Sections */
@@ -87,6 +95,7 @@ header nav ul li a{
     width: 300px;
     color: var(--blueSubHeading);
     margin-right: 30px;
+    font-family: "Palatino", "URW Palladio L", "serif";
 }
 
 .aboutMeContainer {
@@ -95,6 +104,7 @@ header nav ul li a{
     border-radius: 20px;
     width: 100%;
     padding: 20px;
+    font-size: 24px;
 }
 
 #heyJason {
@@ -111,6 +121,7 @@ header nav ul li a{
     border-color: red;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap; /* This is needed to prevent the container objects from spilling into the title sections */ 
     justify-content: space-evenly;
     width: 100%;
 }
@@ -119,8 +130,16 @@ header nav ul li a{
     border-style: solid;
     border-color: var(--blueBoxColor);
     margin: 5px;
-    height: 80px;
+    height: auto;
+    width: auto;
 }
+
+
+.projectCardImage { /* Using external links as placeholders for images */
+    width: 300px;
+    height: 200px;
+}
+
 
 .projectTitle {
     background-color: var(--blueBoxColor);
