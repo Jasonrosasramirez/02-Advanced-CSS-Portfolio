@@ -31,8 +31,7 @@ header nav {
     margin-right: 20px;
     font-size: 20px;
     margin-left: 15px;    
-    border-style: dotted;
-    border-color: green;
+ 
 }
 
 
@@ -62,8 +61,6 @@ header nav ul li a{
     background-image: url("../bannerImage.jpg"); 
     height: 200px; 
     width: 100%;
-    border-style: dashed;
-    border-color: goldenrod;
     margin-bottom: 15px;
     
 }
@@ -83,8 +80,6 @@ header nav ul li a{
 
 .subHeading {   
     margin: 10px;
-    border-style: dashed;
-    border-color: orange;
     border-radius: 20px;
     display:flex;
 }
@@ -99,8 +94,6 @@ header nav ul li a{
 }
 
 .aboutMeContainer {
-    border-style: dashed;
-    border-color: red;
     border-radius: 20px;
     width: 100%;
     padding: 20px;
@@ -117,8 +110,6 @@ header nav ul li a{
 /* Work Section */
 
 .projectCardContainer {
-    border-style: dashed;
-    border-color: red;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap; /* This is needed to prevent the container objects from spilling into the title sections */ 
@@ -154,21 +145,16 @@ header nav ul li a{
 /* resume Section  */
 
 .resumeTitle {
-    border-style: dashed;
-    border-color: red;
+
     border-radius: 20px;
 }
 
 .resumeContainer {
-    border-style: dashed;
-    border-color: red;
     border-radius: 20px;
     width: 100%;
 }
 
 .resumeCard{
-    border-style: dashed;
-    border-color: green;
     border-radius: 20px;
     width: 100%;
     background-color: white;
@@ -181,8 +167,6 @@ header nav ul li a{
 
 footer{
     height: 140px;
-    border-style: dashed;
-    border-color: red;
     background-color: var(--blackTabColor);
 }
 
@@ -198,8 +182,6 @@ footer h2 {
 
 footer ul{
     display: flex;
-    border-style: dotted;
-    border-color: green;
 }
 
 footer ul li{
